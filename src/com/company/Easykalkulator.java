@@ -9,13 +9,9 @@ public class Easykalkulator {
         //        Membuat Pilihan
         Scanner inputan = new Scanner(System.in);
         System.out.print("Masukkan Pilihan = Tambah, Kurang, Bagi, Kali, Modulus, Phytagoras, Akar = ");
-        String pilihansaya = inputan.nextLine().toString().toLowerCase().trim();
+        String pilihansaya = inputan.nextLine().toLowerCase().trim();
 
 //        Percabangan
-//        if ( == null) {
-//            System.err.print("Masukkan pilihan anda");
-//        } else {
-//        }
         switch (pilihansaya) {
 //            Penambahan
             case "tambah":
@@ -23,18 +19,17 @@ public class Easykalkulator {
                 try {
                     //        Angka ke 1
                     System.out.print("Masukkan Angka Ke 1 = ");
-                    String angkatambah1 = inputan.next();
+                    String angkatambah1 = inputan.nextLine();
 
                     //        Angka ke 2
                     System.out.print("Masukkan Angka Ke 2 = ");
-                    String angkatambah2 = inputan.next();
+                    String angkatambah2 = inputan.nextLine();
 
                     //        Conversi
                     int getangkatambah1 = parseInt(angkatambah1);
                     int getangkatambah2 = parseInt(angkatambah2);
                     int hasiltambah = getangkatambah1 + getangkatambah2;
                     System.out.println("Hasil Dari Tambah " + getangkatambah1 + " + " + getangkatambah2 + " = " + Integer.toString(hasiltambah));
-
                     break;
 
                 } catch (Exception e) {
@@ -42,11 +37,11 @@ public class Easykalkulator {
                 }
                 //        Angka ke 1
                 System.out.print("Masukkan Angka Ke 1 = ");
-                String angkatambah1 = inputan.next();
+                String angkatambah1 = inputan.nextLine();
 
                 //        Angka ke 2
                 System.out.print("Masukkan Angka Ke 2 = ");
-                String angkatambah2 = inputan.next();
+                String angkatambah2 = inputan.nextLine();
 
                 //        Conversi
                 int getangkatambah1 = parseInt(angkatambah1);
@@ -62,11 +57,11 @@ public class Easykalkulator {
                 try {
                     //        Angka ke 1
                     System.out.print("Masukkan Angka Ke 1 = ");
-                    String angkakurang1 = inputan.next();
+                    String angkakurang1 = inputan.nextLine();
 
                     //        Angka ke 2
                     System.out.print("Masukkan Angka Ke 2 = ");
-                    String angkakurang2 = inputan.next();
+                    String angkakurang2 = inputan.nextLine();
 
                     //        Conversi
                     int getangkakurang1 = parseInt(angkakurang1);
@@ -80,11 +75,11 @@ public class Easykalkulator {
                 }
                 //        Angka ke 1
                 System.out.print("Masukkan Angka Ke 1 = ");
-                String angkakurang1 = inputan.next();
+                String angkakurang1 = inputan.nextLine();
 
                 //        Angka ke 2
                 System.out.print("Masukkan Angka Ke 2 = ");
-                String angkakurang2 = inputan.next();
+                String angkakurang2 = inputan.nextLine();
 
                 //        Conversi
                 int getangkakurang1 = parseInt(angkakurang1);
@@ -99,11 +94,11 @@ public class Easykalkulator {
                 try {
                     //        Angka ke 1
                     System.out.print("Masukkan Angka Ke 1 = ");
-                    String angkakali1 = inputan.next();
+                    String angkakali1 = inputan.nextLine();
 
                     //        Angka ke 2
                     System.out.print("Masukkan Angka Ke 2 = ");
-                    String angkakali2 = inputan.next();
+                    String angkakali2 = inputan.nextLine();
 
                     //        Conversi
                     int getangkakali1 = parseInt(angkakali1);
@@ -117,11 +112,11 @@ public class Easykalkulator {
                 }
                 //        Angka ke 1
                 System.out.print("Masukkan Angka Ke 1 = ");
-                String angkakali1 = inputan.next();
+                String angkakali1 = inputan.nextLine();
 
                 //        Angka ke 2
                 System.out.print("Masukkan Angka Ke 2 = ");
-                String angkakali2 = inputan.next();
+                String angkakali2 = inputan.nextLine();
 
                 //        Conversi
                 int getangkakali1 = parseInt(angkakali1);
@@ -136,11 +131,11 @@ public class Easykalkulator {
                 try {
                     //        Angka ke 1
                     System.out.print("Masukkan Angka Ke 1 = ");
-                    String angkamodulus1 = inputan.next();
+                    String angkamodulus1 = inputan.nextLine();
 
                     //        Angka ke 2
                     System.out.print("Masukkan Angka Ke 2 = ");
-                    String angkamodulus2 = inputan.next();
+                    String angkamodulus2 = inputan.nextLine();
 
                     //        Conversi
                     int getangkamodulus1 = parseInt(angkamodulus1);
@@ -154,11 +149,11 @@ public class Easykalkulator {
                 }
                 //        Angka ke 1
                 System.out.print("Masukkan Angka Ke 1 = ");
-                String angkamodulus1 = inputan.next();
+                String angkamodulus1 = inputan.nextLine();
 
                 //        Angka ke 2
                 System.out.print("Masukkan Angka Ke 2 = ");
-                String angkamodulus2 = inputan.next();
+                String angkamodulus2 = inputan.nextLine();
 
                 //        Conversi
                 int getangkamodulus1 = parseInt(angkamodulus1);
@@ -173,7 +168,7 @@ public class Easykalkulator {
                 try {
                     //        Angka ke 1
                     System.out.print("Masukkan Angka Ke 1 = ");
-                    String angkaakar = inputan.next();
+                    String angkaakar = inputan.nextLine();
 
                     //        Conversi
                     double getangkaakar1 = parseInt(angkaakar);
@@ -186,7 +181,7 @@ public class Easykalkulator {
                 }
                 //        Angka ke 1
                 System.out.print("Masukkan Angka Ke 1 = ");
-                String angkaakar = inputan.next();
+                String angkaakar = inputan.nextLine();
 
                 //        Conversi
                 double getangkaakar1 = parseInt(angkaakar);
@@ -197,18 +192,18 @@ public class Easykalkulator {
 //                Pytagoras
             case "phytagoras":
                 System.out.print("Pilih Method = Samping / Miring = ");
-                String pilihanphytagoras = inputan.next();
+                String pilihanphytagoras = inputan.nextLine();
 
                 if (pilihanphytagoras.equals("samping")) {
                     //        Validasi
                     try {
                         //        Angka ke 1
                         System.out.print("Masukkan Angka Ke 1 = ");
-                        String angkaphytagoras1 = inputan.next();
+                        String angkaphytagoras1 = inputan.nextLine();
 
                         //        Angka ke 2
                         System.out.print("Masukkan Angka Ke 2 = ");
-                        String angkaphytagoras2 = inputan.next();
+                        String angkaphytagoras2 = inputan.nextLine();
 
                         //        Conversi
                         double getangkaphytagoras1 = parseInt(angkaphytagoras1);
@@ -223,11 +218,11 @@ public class Easykalkulator {
 
                     //        Angka ke 1
                     System.out.print("Masukkan Angka Ke 1 = ");
-                    String angkaphytagoras1 = inputan.next();
+                    String angkaphytagoras1 = inputan.nextLine();
 
                     //        Angka ke 2
                     System.out.print("Masukkan Angka Ke 2 = ");
-                    String angkaphytagoras2 = inputan.next();
+                    String angkaphytagoras2 = inputan.nextLine();
 
                     //        Conversi
                     double getangkaphytagoras1 = parseInt(angkaphytagoras1);
@@ -241,16 +236,16 @@ public class Easykalkulator {
                     try {
                         //        Angka ke 1
                         System.out.print("Masukkan Angka Ke 1 = ");
-                        String angkaphytagoras1 = inputan.next();
+                        String angkaphytagoras1 = inputan.nextLine();
 
                         //        Angka ke 2
                         System.out.print("Masukkan Angka Ke 2 = ");
-                        String angkaphytagoras2 = inputan.next();
+                        String angkaphytagoras2 = inputan.nextLine();
 
                         //        Conversi
                         double getangkaphytagoras1 = parseInt(angkaphytagoras1);
                         double getangkaphytagoras2 = parseInt(angkaphytagoras2);
-                        double hasilmiring = Math.sqrt(Math.pow(getangkaphytagoras1, 2) - Math.pow(getangkaphytagoras2, 2));
+                        double hasilmiring = Math.sqrt(Math.pow(getangkaphytagoras1, 2) + Math.pow(getangkaphytagoras2, 2));
                         System.out.println("Hasil Dari Phytagoras miring " + getangkaphytagoras1 + " dan " + getangkaphytagoras2 + " = " + hasilmiring);
                         break;
 
@@ -260,16 +255,16 @@ public class Easykalkulator {
 
                     //        Angka ke 1
                     System.out.print("Masukkan Angka Ke 1 = ");
-                    String angkaphytagoras1 = inputan.next();
+                    String angkaphytagoras1 = inputan.nextLine();
 
                     //        Angka ke 2
                     System.out.print("Masukkan Angka Ke 2 = ");
-                    String angkaphytagoras2 = inputan.next();
+                    String angkaphytagoras2 = inputan.nextLine();
 
                     //        Conversi
                     double getangkaphytagoras1 = parseInt(angkaphytagoras1);
                     double getangkaphytagoras2 = parseInt(angkaphytagoras2);
-                    double hasilmiring = Math.sqrt(Math.pow(getangkaphytagoras1, 2) - Math.pow(getangkaphytagoras2, 2));
+                    double hasilmiring = Math.sqrt(Math.pow(getangkaphytagoras1, 2) + Math.pow(getangkaphytagoras2, 2));
                     System.out.println("Hasil Dari Phytagoras miring " + getangkaphytagoras1 + " dan " + getangkaphytagoras2 + " = " + hasilmiring);
                     break;
 

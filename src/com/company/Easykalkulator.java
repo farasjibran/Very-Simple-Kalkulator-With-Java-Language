@@ -29,14 +29,14 @@ public class Easykalkulator {
                     int getangkatambah1 = parseInt(angkatambah1);
                     int getangkatambah2 = parseInt(angkatambah2);
                     int hasiltambah = getangkatambah1 + getangkatambah2;
-                    System.out.println("Hasil Dari Tambah " + getangkatambah1 + " + " + getangkatambah2 + " = " + Integer.toString(hasiltambah));
+                    System.out.println("Hasil Tambah Dari " + getangkatambah1 + " + " + getangkatambah2 + " = " + Integer.toString(hasiltambah));
                     break;
 
                 } catch (Exception e) {
-                    System.err.println("Masukkan angka");
+                    System.err.print("Masukkan angka anda"  + "\n");
                 }
                 //        Angka ke 1
-                System.out.print("Masukkan Angka Ke 1 = ");
+                System.out.print("\n" + "Masukkan Angka Ke 1 = ");
                 String angkatambah1 = inputan.nextLine();
 
                 //        Angka ke 2
@@ -47,7 +47,7 @@ public class Easykalkulator {
                 int getangkatambah1 = parseInt(angkatambah1);
                 int getangkatambah2 = parseInt(angkatambah2);
                 int hasiltambah = getangkatambah1 + getangkatambah2;
-                System.out.println("Hasil Dari Tambah " + getangkatambah1 + " + " + getangkatambah2 + " = " + Integer.toString(hasiltambah));
+                System.out.println("Hasil Tambah Dari " + getangkatambah1 + " + " + getangkatambah2 + " = " + Integer.toString(hasiltambah));
 
                 break;
 
@@ -67,14 +67,14 @@ public class Easykalkulator {
                     int getangkakurang1 = parseInt(angkakurang1);
                     int getangkakurang2 = parseInt(angkakurang2);
                     int hasilkurang = getangkakurang1 - getangkakurang2;
-                    System.out.println("Hasil Dari Kurang " + getangkakurang1 + " - " + getangkakurang2 + " = " + Integer.toString(hasilkurang));
+                    System.out.println("Hasil Kurang Dari " + getangkakurang1 + " - " + getangkakurang2 + " = " + Integer.toString(hasilkurang));
                     break;
 
                 } catch (Exception e) {
-                    System.err.println("Masukkan angka");
+                    System.err.println("Masukkan angka" + "\n");
                 }
                 //        Angka ke 1
-                System.out.print("Masukkan Angka Ke 1 = ");
+                System.out.print("\n" + "Masukkan Angka Ke 1 = ");
                 String angkakurang1 = inputan.nextLine();
 
                 //        Angka ke 2
@@ -85,7 +85,7 @@ public class Easykalkulator {
                 int getangkakurang1 = parseInt(angkakurang1);
                 int getangkakurang2 = parseInt(angkakurang2);
                 int hasilkurang = getangkakurang1 - getangkakurang2;
-                System.out.println("Hasil Dari Kurang " + getangkakurang1 + " - " + getangkakurang2 + " = " + Integer.toString(hasilkurang));
+                System.out.println("Hasil Kurang Dari " + getangkakurang1 + " - " + getangkakurang2 + " = " + Integer.toString(hasilkurang));
                 break;
 
 //                Kali
@@ -97,21 +97,21 @@ public class Easykalkulator {
                     String angkakali1 = inputan.nextLine();
 
                     //        Angka ke 2
-                    System.out.print("Masukkan Angka Ke 2 = ");
+                    System.out.print("Masukkan Angka Ke 2 = " + "\n");
                     String angkakali2 = inputan.nextLine();
 
                     //        Conversi
                     int getangkakali1 = parseInt(angkakali1);
                     int getangkakali2 = parseInt(angkakali2);
                     int hasilkali = getangkakali1 * getangkakali2;
-                    System.out.println("Hasil Dari Kali " + getangkakali1 + " x " + getangkakali2 + " = " + Integer.toString(hasilkali));
+                    System.out.println("Hasil Kali Dari" + getangkakali1 + " x " + getangkakali2 + " = " + Integer.toString(hasilkali));
                     break;
 
                 } catch (Exception e) {
-                    System.err.println("Masukkan angka");
+                    System.err.println("Masukkan angka" + "\n");
                 }
                 //        Angka ke 1
-                System.out.print("Masukkan Angka Ke 1 = ");
+                System.out.print("\n" + "Masukkan Angka Ke 1 = ");
                 String angkakali1 = inputan.nextLine();
 
                 //        Angka ke 2
@@ -122,7 +122,7 @@ public class Easykalkulator {
                 int getangkakali1 = parseInt(angkakali1);
                 int getangkakali2 = parseInt(angkakali2);
                 int hasilkali = getangkakali1 * getangkakali2;
-                System.out.println("Hasil Dari Kali " + getangkakali1 + " x " + getangkakali2 + " = " + Integer.toString(hasilkali));
+                System.out.println("Hasil Kali Dari " + getangkakali1 + " x " + getangkakali2 + " = " + Integer.toString(hasilkali));
                 break;
 
 //                Modulus
@@ -134,21 +134,21 @@ public class Easykalkulator {
                     String angkamodulus1 = inputan.nextLine();
 
                     //        Angka ke 2
-                    System.out.print("Masukkan Angka Ke 2 = ");
+                    System.out.print("Masukkan Angka Ke 2 = " + "\n");
                     String angkamodulus2 = inputan.nextLine();
 
                     //        Conversi
                     int getangkamodulus1 = parseInt(angkamodulus1);
                     int getangkamodulus2 = parseInt(angkamodulus2);
                     int hasilmodulus = getangkamodulus1 % getangkamodulus2;
-                    System.out.println("Hasil Dari Modulus " + getangkamodulus1 + " % " + getangkamodulus2 + " = " + Integer.toString(hasilmodulus));
+                    System.out.println("Hasil Modulus Dari " + getangkamodulus1 + " % " + getangkamodulus2 + " = " + Integer.toString(hasilmodulus));
                     break;
 
                 } catch (Exception e) {
-                    System.err.println("Masukkan angka");
+                    System.err.println("Masukkan angka" + "\n");
                 }
                 //        Angka ke 1
-                System.out.print("Masukkan Angka Ke 1 = ");
+                System.out.print("\n" + "Masukkan Angka Ke 1 = ");
                 String angkamodulus1 = inputan.nextLine();
 
                 //        Angka ke 2
@@ -159,7 +159,7 @@ public class Easykalkulator {
                 int getangkamodulus1 = parseInt(angkamodulus1);
                 int getangkamodulus2 = parseInt(angkamodulus2);
                 int hasilmodulus = getangkamodulus1 % getangkamodulus2;
-                System.out.println("Hasil Dari Modulus " + getangkamodulus1 + " % " + getangkamodulus2 + " = " + Integer.toString(hasilmodulus));
+                System.out.println("Hasil Modulus Dari " + getangkamodulus1 + " % " + getangkamodulus2 + " = " + Integer.toString(hasilmodulus));
                 break;
 
 //                Akar
@@ -173,20 +173,20 @@ public class Easykalkulator {
                     //        Conversi
                     double getangkaakar1 = parseInt(angkaakar);
                     double hasilakar = Math.sqrt(getangkaakar1);
-                    System.out.println("Hasil Dari Akar " + getangkaakar1 + " = " + Double.toString(hasilakar));
+                    System.out.println("Hasil Akar Dari " + getangkaakar1 + " = " + Double.toString(hasilakar));
                     break;
 
                 } catch (Exception e) {
-                    System.err.println("Masukkan angka");
+                    System.err.println("Masukkan angka" + "\n");
                 }
                 //        Angka ke 1
-                System.out.print("Masukkan Angka Ke 1 = ");
+                System.out.print("\n" + "Masukkan Angka Ke 1 = ");
                 String angkaakar = inputan.nextLine();
 
                 //        Conversi
                 double getangkaakar1 = parseInt(angkaakar);
                 double hasilakar = Math.sqrt(getangkaakar1);
-                System.out.println("Hasil Dari Akar " + getangkaakar1 + " = " + Double.toString(hasilakar));
+                System.out.println("Hasil Akar Dari " + getangkaakar1 + " = " + Double.toString(hasilakar));
                 break;
 
 //                Pytagoras
@@ -213,11 +213,11 @@ public class Easykalkulator {
                         break;
 
                     } catch (Exception e) {
-                        System.err.println("Masukkan angka");
+                        System.err.println("Masukkan angka" + "\n");
                     }
 
                     //        Angka ke 1
-                    System.out.print("Masukkan Angka Ke 1 = ");
+                    System.out.print("\n" + "Masukkan Angka Ke 1 = ");
                     String angkaphytagoras1 = inputan.nextLine();
 
                     //        Angka ke 2
@@ -250,11 +250,11 @@ public class Easykalkulator {
                         break;
 
                     } catch (Exception e) {
-                        System.err.println("Masukkan angka");
+                        System.err.println("Masukkan angka" + "\n");
                     }
 
                     //        Angka ke 1
-                    System.out.print("Masukkan Angka Ke 1 = ");
+                    System.out.print("\n" + "Masukkan Angka Ke 1 = ");
                     String angkaphytagoras1 = inputan.nextLine();
 
                     //        Angka ke 2
